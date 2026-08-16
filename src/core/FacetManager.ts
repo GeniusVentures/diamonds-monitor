@@ -1,4 +1,4 @@
-import { Diamond } from '@diamondslab/diamonds';
+import { Diamond } from '@geniusventures/diamonds';
 import { Provider } from 'ethers';
 
 /**

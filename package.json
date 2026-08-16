@@ -1,6 +1,6 @@
 {
-  "name": "@diamondslab/diamonds-monitor",
-  "version": "1.0.4",
+  "name": "@geniusventures/diamonds-monitor",
+  "version": "1.0.4-gv.1",
   "description": "Monitoring and management tools for ERC-2535 Diamond Proxy contracts",
   "module": "dist/index.js",
   "authors": [
@@ -63,18 +63,17 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DiamondsLab/diamonds-monitor.git"
+    "url": "git+https://github.com/GeniusVentures/diamonds-monitor.git"
   },
   "bugs": {
-    "url": "https://github.com/DiamondsLab/diamonds-monitor/issues"
+    "url": "https://github.com/GeniusVentures/diamonds-monitor/issues"
   },
-  "homepage": "https://github.com/DiamondsLab/diamonds-monitor#readme",
+  "homepage": "https://github.com/GeniusVentures/diamonds-monitor#readme",
   "dependencies": {
     "ethers": "^6.4.0",
     "winston": "^3.17.0"
   },
   "devDependencies": {
-    "@diamondslab/diamonds": "^1.4.0",
     "@eslint/eslintrc": "^3.0.0",
     "@eslint/js": "^9.0.0",
     "@nomicfoundation/hardhat-ethers": "^4.0.0",
@@ -100,12 +99,13 @@
     "sinon": "^19.0.2",
     "ts-jest": "^29.1.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "@geniusventures/diamonds": "1.3.2-gv.1"
   },
   "peerDependencies": {
-    "@diamondslab/diamonds": "^1.4.0",
     "ethers": "^6.0.0",
-    "hardhat": "^2.0.0"
+    "hardhat": "^2.0.0",
+    "@geniusventures/diamonds": "1.3.2-gv.1"
   },
   "engines": {
     "node": ">=18.0.0",

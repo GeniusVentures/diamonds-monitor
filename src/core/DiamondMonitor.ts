@@ -1,4 +1,4 @@
-import { Diamond } from '@diamondslab/diamonds';
+import { Diamond } from '@geniusventures/diamonds';
 import { Contract, EventLog, Provider } from 'ethers';
 import { EventEmitter } from 'events';
 import * as fs from 'fs';
